@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "postinstall": "node scripts/generate_dead_code.js",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
@@ -18,6 +19,7 @@
     "babel-jest": "24.8.0",
     "eslint": "6.1.0",
     "jest": "24.8.0",
+    "lorem-ipsum": "^2.0.3",
     "metro-react-native-babel-preset": "0.54.1",
     "react-test-renderer": "16.8.6"
   },

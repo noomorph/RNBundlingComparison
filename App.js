@@ -24,6 +24,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+// BEGIN DEAD CODE
+// END DEAD CODE
+
 const App = () => {
   return (
     <Fragment>
